@@ -21,10 +21,10 @@ export default function Home() {
 
                 <a href="/"><Image src="/search_bar.svg" alt="SearchBar" width={371} height={52} className=" mt-[80px] mb-[75px] ml-[20px]"/></a>
               </div>
-           
-            <div>
-              <a href="/"><Image src="/account_logo.svg" alt="AccountLogo" width={67.5} height={45} className=" mt-[80px] mb-[75px] ml-[250px]  "/></a>
-            </div>
+                {/* Account */}
+              <div>
+                <a href="/"><Image src="/account_logo.svg" alt="AccountLogo" width={67.5} height={45} className=" mt-[80px] mb-[75px] ml-[250px]  "/></a>
+              </div>
            </div>
       </div>
     </main>
