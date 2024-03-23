@@ -14,7 +14,12 @@ export default function Home() {
                 <a href="/"><Image src="/I_want_to_support_logo.svg" alt="Want to support" width={57} height={56} className=" ml-[10px]"/></a>
             </div>
             {/* Dua Page & Search Bar */}
-           
+            <div className="flex flex-row justify-between">
+              <div className="flex flex-auto items-center">
+                <h1 className="font-[Poppins] font-bold text-[24px]">Dua Page</h1>
+              </div>
+              <div><a href="/"><Image src="/search_bar.svg" alt="Frame" width={371} height={52} className=" mt-[80px] mb-[75px] ml-[20px]"/></a></div>
+            </div>
       </div>
     </main>
   );
