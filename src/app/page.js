@@ -13,6 +13,8 @@ export default function Home() {
                 <a href="/"><Image src="/Frame 545.svg" alt="Frame" width={38} height={38} className=" mt-[80px] mb-[75px] ml-[20px]"/></a>
                 <a href="/"><Image src="/I_want_to_support_logo.svg" alt="Want to support" width={57} height={56} className=" ml-[10px]"/></a>
             </div>
+            {/* Dua Page & Search Bar */}
+           
       </div>
     </main>
   );
